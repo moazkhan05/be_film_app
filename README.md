@@ -38,12 +38,28 @@ $ npm install
 # development
 $ npm run start
 
+# seed movies
+$ npm run start:seed
+
 # watch mode
 $ npm run start:dev
 
 # production mode
 $ npm run start:prod
 ```
+
+### AUTH
+##### Path : src/auth
+This folder contains registration and login and token generation 
+
+### FILMS
+##### Path : src/FILMS
+This folder contains CRUDS for films , rating and commenting
+
+### PRISMA-ERROR
+##### Path : src/prisma-error
+This folder contains error handling code to catch prisma error 
+
 
 ## Test
 
